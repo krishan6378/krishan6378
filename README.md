@@ -1,28 +1,31 @@
-def int_to_words(n):
-    ones = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
-    teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
-    tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
-    thousands = ['', 'thousand', 'million', 'billion']
+<h1 align="center">Hi 👋, I'm Krishan Kumar Sharma</h1>
+<h3 align="center">A passionate full stack developer from India</h3>
 
-    def helper(num):
-        if num < 10:
-            return ones[num]
-        elif num < 20:
-            return teens[num-10]
-        elif num < 100:
-            return tens[num//10] + ('' if num%10==0 else ' ' + helper(num%10))
-        elif num < 1000:
-            return ones[num//100] + ' hundred' + ('' if num%100==0 else ' and ' + helper(num%100))
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=krishan6378&label=Profile%20views&color=0e75b6&style=flat" alt="krishan6378" /> </p>
 
-    result = ''
-    i = 0
-    while n > 0:
-        if n % 1000 != 0:
-            result = helper(n%1000) + ' ' + thousands[i] + ('' if result=='' else ' ') + result
-        n //= 1000
-        i += 1
-    return result.strip()
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=krishan6378" alt="krishan6378" /></a> </p>
 
-# Test the function
-print(int_to_words(1000))  # Output: one thousand
-print(int_to_words(4003))  # Output: four thousand three
+<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+
+- 🔭 I’m currently working on [goavido.com](https://goavido.com/)
+
+- 🌱 I’m currently learning **React , Wordpress ,Django**
+
+- 💬 Ask me about **React , Wordpress ,Django**
+
+- 📫 How to reach me **krishanbandawala6378@gmail.com**
+
+- ⚡ Fun fact **I think I Am funny**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=krishan6378&show_icons=true&locale=en&layout=compact" alt="krishan6378" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=krishan6378&show_icons=true&locale=en" alt="krishan6378" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=krishan6378&" alt="krishan6378" /></p>
